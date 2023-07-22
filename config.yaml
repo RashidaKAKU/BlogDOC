@@ -202,7 +202,6 @@ menu:
           url: https://github.com/CaiJimmy/hugo-theme-stack
           params:
               icon: brand-github
-    social:
         - identifier: mail
           name: mail
           url: mailto:rashida.gcy@outlook.com
