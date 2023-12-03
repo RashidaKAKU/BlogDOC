@@ -8,14 +8,14 @@ image: "https://rashida.cab:5065/i/2023/12/03/pambft.jpg"
 ---
 
 # 群晖 Container Manager（下面简称 CM） 部署教程。
-> [项目官方地址](https://immich.app/)。
+> [immich 项目官方地址](https://immich.app/)。
 
 打开群晖 CM 选择项目选项。
 选择新建项目。
 填写好项目名称以及项目地址。
 
-## 创建 Docker compose 代码如下
-···yaml
+创建 Docker compose 代码如下
+```yaml
 version: "2.1"
 services:
   immich:
@@ -59,15 +59,19 @@ services:
       POSTGRES_DB: immich
     volumes:
       - /volume1/docker/immich/db:/var/lib/postgresql/data
+```
 
 # 更新 Immich
 > 注意服务器版本和 APP 版本要保持一致！！否则无法使用 APP。
+
 先在项目中停用 Immich。
 打开群晖 SSH。
 使用链接工具链接后 sudo -i 获取管理员权限。
 cd 命令跳转到你 compose yaml 文件存储位置。
 使用命令开始更新
-## docker-compose pull
+```
+docker-compose pull
+```
 更新后回到群晖 CM 找到容器 之前创建的 Immich容器。
 右键复制设置然后清除就容器的端口号，在复制后的新容器中填写。
 启动 CM 项目，打开Immich 网页端。
