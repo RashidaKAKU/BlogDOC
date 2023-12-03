@@ -2,7 +2,7 @@
 title: "Immich 群晖相册替代"
 description: "Docker 部署的相册管理软件 网页 移动APP"
 tags: [Win,Docker,]
-categories: "教程"
+categories: "Docker"
 date: 2023-12-03T16:47:59+09:00
 image: "https://rashida.cab:5065/i/2023/12/03/pambft.jpg"
 ---
