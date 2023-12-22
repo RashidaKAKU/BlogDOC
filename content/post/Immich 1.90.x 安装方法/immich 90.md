@@ -3,7 +3,7 @@ title: "Immich 1.90.x 安装方法"
 description: "Docker 部署的相册管理软件 1.90.x 安装方法"
 tags: [Win,Docker,]
 categories: "Docker"
-date: 2023-12-23T16:47:59+09:00
+date: 2023-12-22T16:47:59+09:00
 image: "https://rashida.cab:5065/i/2023/12/23/pa4lk.jpg"
 ---
 
