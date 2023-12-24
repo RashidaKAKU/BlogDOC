@@ -57,8 +57,11 @@ services:
     restart: on-failure:5
 ```
 修改 compose 文件中的映射端口。
+
 修改 db 中的文件映射本地路径，如果按照准备阶段创建文件夹，可以不用修改。
+
 修改 wallabag 中的文件映射本地路径，如果按照准备阶段创建文件夹，可以不用修改。
+
 修改 SYMFONY__ENV__DOMAIN_NAME=xxxxxx 中的xxxxxx 为你反代之后的 https 地址，否则可能会出现加载错误。
 
 ## 部署阶段
